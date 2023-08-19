@@ -1,37 +1,9 @@
-import React from 'react'
-import Card from '../UI/Card';
+import React from "react";
 
-const Header = () => {
-  return (
-    <Card>
-    <div>
-      <label>TshirtName</label>
-      <input type='text'></input>
+const Header=()=>{
 
-      <label>Description</label>
-      <input type='text'></input>
-
-      <label>Price</label>
-      <input></input>
-
-      <label>Quantity Available
-
-        <label>L</label>
-        <input
-         type='number'
-         defaultValue={100}
-
-        />
-        <label>M</label>
-        <input type='number' defaultValue={20}/>
-        <label>S</label>
-        <input type='number' defaultValue={30}/>
-      </label>
-      <button >Add Products</button>
-      </div>
-    
-    </Card>
-  )
+    return <div>
+  <h1>T-Shirt Store</h1>
+    </div>
 }
- 
 export default Header;
