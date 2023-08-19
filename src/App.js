@@ -5,11 +5,7 @@ import AvailableTshirtList from './Components/Tshirts/AvailableTshirtList';
 import {AvailableTshirtAction} from './Components/Tshirts/AvailableTshirtAction'
 
 function App() {
-  // const [products, setProducts] = useState([]);
-
-  // const addProduct = (product) => {
-  //   AvailableTshirtAction(product, products, setProducts);
-  // };
+  
   const { products, addProduct } =  AvailableTshirtAction();
 
   return (
